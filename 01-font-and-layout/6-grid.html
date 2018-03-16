@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../assets/stylesheets/bootstrap.min.css">
+  <script src="../assets/javascripts/jquery-3.2.1.slim.min.js"></script>
+  <script src="../assets/javascripts/popper.min.js"></script>
+  <script src="../assets/javascripts/bootstrap.min.js"></script>
+  <title>Bootstrap 遊樂場</title>
+</head>
+<body>
+  <div class="container">
+    <div class="alert alert-dark" role="alert">
+      格線系統
+    </div>
+
+    <!-- RESPONSIVE GRID -->
+    <div class="row">
+      <div class="border">
+        <ul>
+          <li>小畫面 6 格</li>
+          <li>中畫面 8 格</li>
+          <li>大畫面 9 格</li>
+          <li>超大畫面 10 格</li>
+        </ul>
+      </div>
+
+      <div class="border">
+        <ul>
+          <li>小畫面 6 格</li>
+          <li>中畫面 4 格</li>
+          <li>大畫面 3 格</li>
+          <li>超大畫面 2 格</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+    <div class="alert alert-dark" role="alert">
+      同行(row)、等寬(col)
+    </div>
+
+    <div>
+      <div class="bg-info border">我們都一樣</div>
+      <div class="bg-info border">我們都一樣</div>
+      <div class="bg-info border">我們都一樣</div>
+      <div class="bg-info border">我們都一樣</div>
+    </div>
+
+    <hr>
+    <div class="alert alert-dark" role="alert">
+      加起來不到 12 的話，自動分配寬度...
+    </div>
+    <div class="row">
+      <div class="bg-info border">沒指定</div>
+      <div class="bg-info border">我要 6 格</div>
+      <div class="bg-info border">我要 4 格</div>
+    </div>
+
+    <hr>
+    <div class="alert alert-dark" role="alert">
+      小畫面的時候會疊起來...(col-sm)
+    </div>
+    <div class="row">
+      <div class="bg-info border">疊疊樂</div>
+      <div class="bg-info border">疊疊樂</div>
+      <div class="bg-info border">疊疊樂</div>
+    </div>
+
+    <hr>
+    <div class="alert alert-dark" role="alert">
+      排序(order)
+    </div>
+    <div class="row">
+      <div class="col" style="border:1px solid #333">
+        最前面
+      </div>
+      <div class="col" style="border:1px solid #333">
+        第二
+      </div>
+      <div class="col" style="border:1px solid #333">
+        第三
+      </div>
+    </div>
+  </div>
+</body>
+</html>
